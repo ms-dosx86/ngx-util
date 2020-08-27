@@ -1,6 +1,6 @@
 {
   "name": "ngx-util",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A set of utilites for Angular X projects",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
