@@ -1,0 +1,35 @@
+{
+  "name": "ngx-util",
+  "version": "0.0.0",
+  "description": "A set of utilites for Angular X projects",
+  "main": "lib/index.js",
+  "types": "lib/**/*.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare" : "npm run build",
+    "postversion" : "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ms-dosx86/ngx-util.git"
+  },
+  "keywords": [
+    "angular",
+    "util",
+    "ngx-util",
+    "utilities",
+    "angular-util",
+    "angular-utilities"
+  ],
+  "author": "ms-dosx86",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ms-dosx86/ngx-util/issues"
+  },
+  "homepage": "https://github.com/ms-dosx86/ngx-util#readme",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "files": ["lib/**/*"]
+}
