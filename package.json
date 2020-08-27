@@ -1,14 +1,14 @@
 {
   "name": "ngx-util",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A set of utilites for Angular X projects",
   "main": "lib/index.js",
   "types": "lib/**/*.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "prepare" : "npm run build",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,7 @@
   "devDependencies": {
     "typescript": "^4.0.2"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ]
 }
